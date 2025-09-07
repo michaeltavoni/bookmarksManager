@@ -1,0 +1,127 @@
+{
+    "user": "MICHAEL",
+    "items": [
+        {
+            "id": "GENERIC",
+            "label": "Bookmarks-generici",
+            "urls-list": [
+                {
+                    "url": "http://www.google.com",
+                    "label": "Intranet"
+                },
+                {
+                    "url": "http://www.google.com",
+                    "label": "Workday"
+                },
+                {
+                    "url": "http://www.google.com",
+                    "label": "Staffing"
+                },
+                {
+                    "url": "http://www.google.com",
+                    "label": "Ferie (team)"
+                },
+                {
+                    "url": "http://www.google.com",
+                    "label": "Ferie (line)"
+                }
+            ]
+        },
+        {
+            "id": "WEBAPP1",
+            "label": "Web App 1",
+            "urls-nested": [
+                {
+                    "id": "Client1",
+                    "label": "Client1",
+                    "urls": [
+                        {
+                            "id": "ENV1",
+                            "label": "Locale",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV2",
+                            "label": "Sviluppo",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV3",
+                            "label": "System-test",
+                            "url": "http://www.google.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "WEBAPP1",
+            "label": "Web App 2",
+            "urls-nested": [
+                {
+                    "id": "Client1",
+                    "label": "Client1",
+                    "urls": [
+                        {
+                            "id": "ENV1",
+                            "label": "Locale",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV2",
+                            "label": "Sviluppo",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV3",
+                            "label": "System-test",
+                            "url": "http://www.google.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "Client1",
+                    "label": "Client1",
+                    "urls": [
+                        {
+                            "id": "ENV1",
+                            "label": "Locale",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV2",
+                            "label": "Sviluppo",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV3",
+                            "label": "System-test",
+                            "url": "http://www.google.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "Client1",
+                    "label": "Client1",
+                    "urls": [
+                        {
+                            "id": "ENV1",
+                            "label": "Locale",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV2",
+                            "label": "Sviluppo",
+                            "url": "http://www.google.com"
+                        },
+                        {
+                            "id": "ENV3",
+                            "label": "System-test",
+                            "url": "http://www.google.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

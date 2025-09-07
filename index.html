@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="index">
+    <nav>
+        <div class="header">
+            <div>
+                <h2><a href="./index.html">Bookmarks</a></h2>
+            </div>
+            <div class="search-box">
+                <input id="searchText" type="text" onkeyup="searchFunction()" placeholder="GOV-BMED-DEV" />
+                <button onclick="searchBookmarks(document.getElementById('searchText')).value">cerca</button>
+            </div>
+        </div>
+        <div class="settings-button">
+            <a onclick="openSettings()"><img src="./assets/settings.svg"></a>
+        </div>
+    </nav>
+    <div class="settings">
+        <div class="settings-option">
+            <button id="load-config">carica e sovrascrivi</button>
+        </div>
+        <div class="settings-option">
+            <button onclick="openDbConnection()">db connection</button>
+        </div>
+        <!-- <div class="settings-option">
+            <button>esporta json</button>
+        </div>
+        <div class="settings-option">
+            <button>esporta html</button>
+        </div> -->
+        <div class="settings-option">
+            <button onclick="resetBookmarks()">reset</button>
+        </div> 
+    </div>
+    <div class="bookmarks">
+        <div id="bannerNoBookmarks">
+            <b>ATTENZIONE!</b><br>
+            Non sono stati trovati dei segnalibri in memoria, occorre caricare un file o inserire manualmente i segnalibri.
+        </div>
+        <table id="linkTable">
+        </table>
+    </div>
+    <input id="input" type="file" accept=".json"/>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
