@@ -28,7 +28,7 @@
             ]
         },
         {
-            "id": "WEBAPP1",
+            "id": "ALPHA",
             "label": "Web App 1",
             "urls-nested": [
                 {
@@ -36,17 +36,17 @@
                     "label": "Client1",
                     "urls": [
                         {
-                            "id": "ENV1",
+                            "id": "LOCAL",
                             "label": "Locale",
                             "url": "http://www.google.com"
                         },
                         {
-                            "id": "ENV2",
+                            "id": "SVIL",
                             "label": "Sviluppo",
                             "url": "http://www.google.com"
                         },
                         {
-                            "id": "ENV3",
+                            "id": "SIT",
                             "label": "System-test",
                             "url": "http://www.google.com"
                         }
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "id": "WEBAPP1",
+            "id": "BETA",
             "label": "Web App 2",
             "urls-nested": [
                 {
@@ -63,7 +63,7 @@
                     "label": "Client1",
                     "urls": [
                         {
-                            "id": "ENV1",
+                            "id": "LOCALE",
                             "label": "Locale",
                             "url": "http://www.google.com"
                         },
